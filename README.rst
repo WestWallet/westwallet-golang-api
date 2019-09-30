@@ -29,8 +29,8 @@ Create withdrawal example
     )
     // Sending 0.1 ETH to 0x57689002367b407f031f1BB5Ef2923F103015A32
     client := westwallet.APIClient{
-        Key:      "your_api_key",
-        Secret:   "your_secret_key",
+        Key:      "your_public_key",
+        Secret:   "your_private_key",
     }
     transaction, err := client.CreateWithdrawal(
         "ETH", "0.1", "0x57689002367b407f031f1BB5Ef2923F103015A32", "", ""
@@ -54,8 +54,8 @@ Generate address example
         westwallet "github.com/westwallet/westwallet-golang-api"
     )
     client := westwallet.APIClient{
-        Key:      "your_api_key",
-        Secret:   "your_secret_key",
+        Key:      "your_public_key",
+        Secret:   "your_private_key",
     }
     address, err := client.GenerateAddress("BTC", "", "")
     if err != nil {
