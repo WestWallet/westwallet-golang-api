@@ -14,14 +14,14 @@ import (
 )
 
 const (
-	// ENDPOINT defaults to https://api.westwallet.info
+	// ENDPOINT defaults to https://api.westwallet.io
 	// but can be overridden for test purposes
-	ENDPOINT = "https://api.westwallet.info"
+	ENDPOINT = "https://api.westwallet.io"
 )
 
 // APIClient is the interface for most of the API calls
 // If Endpoint aren't defined the library
-// will use the default https://api.westwallet.info
+// will use the default https://api.westwallet.io
 type APIClient struct {
 	Key      string
 	Secret   string
