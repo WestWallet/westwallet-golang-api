@@ -4,7 +4,7 @@ westwallet-golang-api
     :alt: godoc
     :target: http://godoc.org/github.com/WestWallet/westwallet-golang-api
 
-westwallet-golang-api is a `WestWallet Public API <https://westwallet.info/api_docs>`_ wrapper for Go programming language. Use it for building payment solutions.
+westwallet-golang-api is a `WestWallet Public API <https://westwallet.io/api_docs>`_ wrapper for Go programming language. Use it for building payment solutions.
 
 Installing
 ----------
@@ -65,7 +65,7 @@ Generate address example
 
 Documentation
 -------------
-* API: https://westwallet.info/api_docs
+* API: https://westwallet.io/api_docs
 
 Other languages
 ---------------
