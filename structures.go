@@ -1,28 +1,28 @@
 package westwallet
 
 type APIAddress struct {
-	Address  string
-	DestTag  string
-	Currency string
-	Label    string
-	Error    string
+	Address  string `json:"address"`
+	DestTag  string `json:"dest_tag"`
+	Currency string `json:"currency"`
+	Label    string `json:"label"`
+	Error    string `json:"error"`
 }
 
 type APIBalance struct {
-	Balance  string
-	Currency string
-	Error    string
+	Balance  string `json:"balance"`
+	Currency string `json:"currency"`
+	Error    string `json:"error"`
 }
 
 type APITransaction struct {
-	ID                      int
-	Amount                  string
-	Address                 string
-	DestTag                 string
-	Currency                string
-	Status                  string
-	Type                    string
-	BlockchainConfirmations int
-	BlockchainHash          string
-	Error                   string
+	ID                      int    `json:"id"`
+	Amount                  string `json:"amount"`
+	Address                 string `json:"address"`
+	DestTag                 string `json:"dest_tag"`
+	Currency                string `json:"currency"`
+	Status                  string `json:"status"`
+	Type                    string `json:"type"`
+	BlockchainConfirmations int    `json:"blockchain_confirmations"`
+	BlockchainHash          string `json:"blockchain_hash"`
+	Error                   string `json:"error"`
 }
